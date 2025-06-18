@@ -2,7 +2,6 @@ package service;
 
 import model.Consulta;
 import model.Cirurgia;
-
 import java.util.ArrayList;
 import java.util.List;
 

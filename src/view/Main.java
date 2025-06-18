@@ -67,9 +67,11 @@ public class Main {
                     String pacienteC = scanner.nextLine();
                     System.out.print("Médico: ");
                     String medicoC = scanner.nextLine();
+                    System.out.print("Tipo de cirurgia: ");
+                    String tipo = scanner.nextLine();
                     System.out.print("Data e hora (dd/MM/yyyy HH:mm): ");
                     LocalDateTime dataHoraCirurgia = LocalDateTime.parse(scanner.nextLine(), formatter);
-                    service.adicionarCirurgia(new Cirurgia(pacienteC, medicoC, dataHoraCirurgia));
+                    service.adicionarCirurgia(new Cirurgia(pacienteC, medicoC, tipo, dataHoraCirurgia));
                     System.out.println("Cirurgia marcada com sucesso.");
                     break;
 

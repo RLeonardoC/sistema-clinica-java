@@ -1,4 +1,5 @@
-package sistema.expansao;
+package service.expansao;
+
 
 public abstract class Usuario {
     protected String nome;

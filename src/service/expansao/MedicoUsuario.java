@@ -1,4 +1,4 @@
-package sistema.expansao;
+package service.expansao;
 
 public class MedicoUsuario extends Usuario {
     public MedicoUsuario(String nome, String login, String senha) {

@@ -1,6 +1,8 @@
-package sistema.expansao;
+package service.expansao;
 
-import modelo.Consulta;
+
+import model.Consulta;
+
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -12,9 +14,10 @@ public class Relatorio {
         BufferedWriter writer = new BufferedWriter(new FileWriter("relatorio_consultas.txt"));
 
         for (Consulta c : consultas) {
-            writer.write("Paciente: " + c.getPaciente().getNome()
-                       + " | Médico: " + c.getMedico().getNome()
-                       + " | Data: " + c.getDataHora().toString() + "\n");
+            writer.write("Paciente: " + c.getPaciente()
+           + " | Médico: " + c.getMedico()
+           + " | Data: " + c.getDataHora().toString() + "\n");
+
         }
 
         writer.close();

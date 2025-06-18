@@ -1,6 +1,8 @@
-package sistema.expansao;
+package service.expansao;
 
-import modelo.Paciente;
+
+import model.Paciente;
+
 
 public class Notificador {
     public void enviarNotificacao(Paciente p, String msg) {

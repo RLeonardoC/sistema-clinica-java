@@ -13,6 +13,22 @@ public class Consulta {
         this.dataHora = dataHora;
     }
 
+    public String getPaciente() {
+        return paciente;
+    }
+
+    public String getMedico() {
+        return medico;
+    }
+
+    public LocalDateTime getDataHora() {
+        return dataHora;
+    }
+
+    public void setDataHora(LocalDateTime dataHora) {
+        this.dataHora = dataHora;
+    }
+
     @Override
     public String toString() {
         return "Consulta: " + paciente + " com " + medico + " em " + dataHora;

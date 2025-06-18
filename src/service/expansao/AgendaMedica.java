@@ -1,7 +1,8 @@
-package sistema.expansao;
+package service.expansao;
 
-import modelo.Consulta;
-import modelo.Cirurgia;
+
+import model.Consulta;
+import model.Cirurgia;
 import java.util.List;
 import java.time.LocalDateTime;
 

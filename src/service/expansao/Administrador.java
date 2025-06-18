@@ -1,4 +1,4 @@
-package sistema.expansao;
+package service.expansao;
 
 public class Administrador extends Usuario {
     public Administrador(String nome, String login, String senha) {

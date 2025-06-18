@@ -1,4 +1,5 @@
-package sistema.expansao;
+package service.expansao;
+
 
 import java.util.ArrayList;
 import java.util.List;
