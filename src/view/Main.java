@@ -3,6 +3,8 @@ package view;
 import model.Consulta;
 import model.Cirurgia;
 import service.ClinicaService;
+import service.expansao.*;
+
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
